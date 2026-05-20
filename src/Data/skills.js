@@ -1,0 +1,58 @@
+export const skillsData = [
+  {
+    name: "React",
+    level: 92,
+    category: "Frontend",
+    icon: "⚛️",
+    description: "Component-based UI, hooks, state management, React Router."
+  },
+  {
+    name: "JavaScript",
+    level: 95,
+    category: "Frontend",
+    icon: "🟨",
+    description: "ES6+, async/await, DOM manipulation, dynamic experiences."
+  },
+  {
+    name: "HTML & CSS",
+    level: 98,
+    category: "Frontend",
+    icon: "🎨",
+    description: "Semantic markup, modern layouts, animations, responsive design."
+  },
+  {
+    name: "Node.js",
+    level: 85,
+    category: "Backend",
+    icon: "🟢",
+    description: "RESTful APIs, Express.js, server-side logic and integrations."
+  },
+  {
+    name: "PHP & Laravel",
+    level: 88,
+    category: "Backend",
+    icon: "🐘",
+    description: "Dynamic web apps, MVC architecture, Eloquent ORM."
+  },
+  {
+    name: "SEO",
+    level: 90,
+    category: "Marketing",
+    icon: "📈",
+    description: "On-page SEO, technical audits, keyword strategy & rankings."
+  },
+  {
+    name: "MySQL",
+    level: 82,
+    category: "Backend",
+    icon: "🗄️",
+    description: "Database design, complex queries, performance optimization."
+  },
+  {
+    name: "jQuery",
+    level: 88,
+    category: "Frontend",
+    icon: "💠",
+    description: "DOM manipulation, event handling, AJAX requests."
+  }
+];
