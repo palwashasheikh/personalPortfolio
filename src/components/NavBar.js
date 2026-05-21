@@ -50,8 +50,8 @@ if (isBlogPage) {
               <a href="https://github.com/palwashasheikh">
                 <img src={navIcon2} alt="" />
               </a>
-              <a href="#">
-                <img src={navIcon3} alt="" />
+              <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+                <img src={navIcon3} alt="Instagram" />
               </a>
             </div>
             <HashLink to="#connect">
@@ -123,8 +123,8 @@ if (isBlogPage) {
               <a href="https://github.com/palwashasheikh">
                 <img src={navIcon2} alt="" />
               </a>
-              <a href="#">
-                <img src={navIcon3} alt="" />
+              <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+                <img src={navIcon3} alt="Instagram" />
               </a>
             </div>
             <HashLink to="#connect">
