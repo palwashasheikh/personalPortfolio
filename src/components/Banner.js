@@ -5,13 +5,14 @@ import { ArrowRightCircle } from 'react-bootstrap-icons';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
+const toRotate = [ "Software Developer", "SEO Specialist" ];
+const period = 2000;
+
 export const Banner = () => {
   const [loopNum, setLoopNum] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(150);
-  const toRotate = [ "Software Developer", "SEO Specialist" ];
-  const period = 2000;
 
   useEffect(() => {
     const tick = () => {
@@ -40,7 +41,7 @@ export const Banner = () => {
     }, delta);
 
     return () => { clearInterval(ticker) };
-  }, [text, delta, loopNum, isDeleting, toRotate, period]);
+  }, [text, delta, loopNum, isDeleting]);
 
   return (
     <section className="banner" id="home">
