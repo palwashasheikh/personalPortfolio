@@ -30,7 +30,7 @@ export const NewPostForm = () => {
       formData.append("content", content);
       if (image) formData.append("image", image);
 
-      const response = await fetch("https://portfolio-backend-h6no.onrender.com/api/posts", {
+      const response = await fetch("https://profileapi-kx1a.onrender.com/api/posts", {
         method: "POST",
         body: formData, // multipart/form-data automatically set
       });

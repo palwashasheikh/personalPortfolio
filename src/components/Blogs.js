@@ -31,7 +31,7 @@ export const Blogs = () => {
   useEffect(() => {
     const fetchBlogs = async () => {
       try {
-        const response = await axios.get("https://portfolio-backend-h6no.onrender.com/api/posts");
+        const response = await axios.get("https://profileapi-kx1a.onrender.com/api/posts");
         setBlogPosts(response.data);
       } catch (err) {
         setError("Unable to load blog posts.");
