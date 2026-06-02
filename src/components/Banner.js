@@ -5,7 +5,7 @@ import { ArrowRightCircle } from 'react-bootstrap-icons';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
-const toRotate = [ "Software Developer", "SEO Specialist" ];
+const toRotate = [ "Software Engineer" ];
 const period = 2000;
 
 export const Banner = () => {
@@ -52,16 +52,15 @@ export const Banner = () => {
               {({ isVisible }) =>
                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                   <span className="tagline">Welcome to my Portfolio</span>
-                  <h1>{`Hi! I'm Palwasha, a `} <br></br> <span className="txt-rotate" data-period="1000" data-rotate='[ "Software Developer", "SEO Specialist" ]'><span className="wrap">{text}</span><span className="cursor">|</span></span></h1>
+                  <h1>{`Hi! I'm Palwasha, a `} <br></br> <span className="txt-rotate" data-period="1000" data-rotate='[ "Software Engineer" ]'><span className="wrap">{text}</span><span className="cursor">|</span></span></h1>
                   <p>
-                    <strong>Software Developer & SEO Specialist</strong> with 8+ years of experience building robust and scalable web applications. 
-                    I specialize in blending technical excellence with SEO best practices to deliver high-ranking, user-friendly solutions.
+                    <strong>Software Engineer</strong> with 8+ years of experience building robust and scalable web applications. 
+                    I specialize in technical excellence to deliver high-performance, user-friendly solutions.
                   </p>
                   <div className="skills-tags mt-4 mb-4">
                     <span className="skill-tag">React</span>
                     <span className="skill-tag">Node.js</span>
                     <span className="skill-tag">Laravel</span>
-                    <span className="skill-tag">SEO</span>
                   </div>
                   <button onClick={() => window.location.href='#connect'}>Let’s Connect <ArrowRightCircle size={25} /></button>
                 </div>}
