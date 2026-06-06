@@ -1,25 +1,10 @@
-````markdown
-# Personal Portfolio Website
+# Palwasha Sheikh — Personal Portfolio
 
-A modern and responsive personal portfolio website built with React to showcase projects, skills, experience, and contact information.
+Full-Stack Software Engineer with 8+ years of experience building scalable web applications across real estate, CRM, and property management domains. This portfolio showcases selected projects, technical skills, and professional background.
 
-## 🚀 Live Demo
+## 🚀 Live Site
 
-Add your deployed website link here:
-
-```bash
-https://your-portfolio-link.com
-```
-
----
-
-## 📸 Preview
-
-Add screenshots or GIFs here.
-
-```md
-![Portfolio Preview](./src/assets/preview.png)
-```
+[https://personalportfolio-one-iota.vercel.app](https://personalportfolio-one-iota.vercel.app)
 
 ---
 
@@ -28,28 +13,33 @@ Add screenshots or GIFs here.
 - React.js
 - React Bootstrap
 - Animate.css
-- JavaScript
-- HTML5
-- CSS3
+- JavaScript (ES6+)
+- HTML5 & CSS3
 
 ---
 
-## ✨ Features
+## ✨ What's Inside
 
-- Responsive design for all devices
-- Smooth animations and transitions
-- Modern UI/UX
-- Projects showcase section
-- Skills and experience section
-- Contact form
-- Fast and optimized performance
+- **About** — Background, experience summary, and core stack
+- **Projects** — Live demos and source code for key projects
+- **Skills** — Frontend, backend, databases, and tools
+- **Experience** — Professional timeline
+- **Contact** — Direct links to reach out
+
+---
+
+## 💼 Core Tech Stack
+
+| Frontend | Backend | Database | Tools |
+|----------|---------|----------|-------|
+| React, Angular, TypeScript | Node.js, Laravel | PostgreSQL, MySQL | Git, REST APIs, Vercel |
 
 ---
 
 ## 📂 Project Structure
 
-```bash
-personal-portfolio/
+```
+personalPortfolio/
 │
 ├── public/
 ├── src/
@@ -65,47 +55,20 @@ personal-portfolio/
 
 ---
 
-## ⚙️ Installation & Setup
-
-Clone the repository:
+## ⚙️ Run Locally
 
 ```bash
-git clone https://github.com/yourusername/personal-portfolio.git
-```
-
-Navigate into the project directory:
-
-```bash
-cd personal-portfolio
-```
-
-Install dependencies:
-
-```bash
+git clone https://github.com/palwashasheikh/personalPortfolio.git
+cd personalPortfolio
 npm install
-```
-
----
-
-## ▶️ Run Locally
-
-Start the development server:
-
-```bash
 npm start
 ```
 
-Open in browser:
-
-```bash
-http://localhost:3000
-```
+Open at `http://localhost:3000`
 
 ---
 
-## 🏗️ Production Build
-
-Create optimized production build:
+## 📦 Production Build
 
 ```bash
 npm run build
@@ -113,45 +76,8 @@ npm run build
 
 ---
 
-## 🧪 Available Scripts
-
-### `npm start`
-
-Runs the app in development mode.
-
-### `npm test`
-
-Launches the test runner.
-
-### `npm run build`
-
-Builds the app for production.
-
----
-
-## 📦 Deployment
-
-You can deploy this project using:
-
-- Vercel
-- Netlify
-- GitHub Pages
-- Firebase Hosting
-
----
-
 ## 📧 Contact
 
-Feel free to connect with me:
-
-- LinkedIn: https://linkedin.com/in/yourprofile
-- GitHub: https://github.com/yourusername
-- Email: your@email.com
-
----
-
-## ⭐ Support
-
-If you like this project, give it a star on GitHub ⭐
-
-````
+- 🔗 LinkedIn: [linkedin.com/in/palwashasoftwareengineer](https://www.linkedin.com/in/palwashasoftwareengineer/)
+- 🐙 GitHub: [github.com/palwashasheikh](https://github.com/palwashasheikh)
+- 📩 Email: [palwashasheikh229@gmail.com](mailto:palwashasheikh229@gmail.com)
